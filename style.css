@@ -1,0 +1,44 @@
+.heading{
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #6342f5;
+    font-weight: bolder;
+    cursor: not-allowed;
+    border: 5px 5px double #ff3333;
+
+}
+#line{
+    width: 6px;
+    color: beige;
+}
+.heading_div{
+    float: none;
+    background-color: cornsilk;
+    padding: 10px;
+    border-radius: 18px;
+    color: #2c2e2c;
+    box-shadow: 5px 5px 25px #00ff48;
+    cursor: not-allowed;
+}
+.heading_div2{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: not-allowed;
+}
+.heading_div2:hover{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: not-allowed;
+    border: 5px 5px 10px #fff82b;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyFrames example{
+    from{box-shadow: 5px 5px 20px #ff5151;}
+    to{box-shadow: 5px 5px 35px #417dff;}
+}
